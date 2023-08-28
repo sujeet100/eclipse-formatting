@@ -1,5 +1,8 @@
 # Spotless eclipse-formatting
 
+Has eclipse formatting xml file and the .editorconfig file for intellij which is almost in sync
+To use eclipse formatting xml with spotless configure spotless task as below
+
 ``` gradle
 spotless {
 	format 'misc', {
